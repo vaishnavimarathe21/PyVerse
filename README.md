@@ -1,134 +1,144 @@
-# Hacktoberfest-2022 
+# 🚀 PyVerse – Hacktoberfest 2025
 
-<p align = "right"> Maintained By Deepak Kumar </p>
+**PyVerse is a beginner-friendly project to help you get started with **[**Hacktoberfest 2025**](https://hacktoberfest.com/)**.**\
+If you don’t know where to start, feel free to watch the videos linked below, and read the contribution rules.\
+Happy Learning 💙 and Happy Contributing 🎉 !!
+
+P.S. ⭐ Star and Share this repository if you had fun! 😍
 
 
-**This is a beginner-friendly project to help you get started with your
-[hacktoberfest](https://hacktoberfest.digitalocean.com/). If you don't know where to start, feel free to watch the videos linked below, and read the contribution rules. Happy Learning <3 💙 !!**
 
-P.S. Star ⭐ and Share this repository, if you had fun!! 😍
+---
 
-![hacktoberfestbanner](https://user-images.githubusercontent.com/97526225/194758000-e3c8a909-57c4-4806-8ba4-ed70492b0930.jpeg)
-
-# 📌 Videos 📽️:
+# 📌 Videos 📽️
 
 - [Hacktoberfest Intro](https://www.youtube.com/watch?v=mq_FIHdxmIk)
-- [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
+- [How to pull request (Overview)](https://youtu.be/DIj2q02gvKs)
 - [Merge Conflict / comment](https://youtu.be/zOx5PJTY8CI)
 
-# What is open source 📙:
-<p>Open source is a term that originally referred to open source software (OSS). Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
+---
 
-Open source software is developed in a decentralized and collaborative way, relying on peer review and community production. Open source software is often cheaper, more flexible, and has more longevity than its proprietary peers because it is developed by communities rather than a single author or company.
+# 📙 What is Open Source?
 
-Open source has become a movement and a way of working that reaches beyond software production. The open source movement uses the values and decentralized production model of open source software to find new ways to solve problems in their communities and industries.</p>
+Open source software (OSS) is code that is publicly accessible — anyone can see, modify, and distribute the code as they wish.\
+It is developed in a decentralized and collaborative way, relying on peer review and community contributions.
 
-# Contribution Rules📚:
+Open source projects often last longer, are more flexible, and cost less than proprietary ones because they are maintained by communities rather than a single company.\
+Beyond software, open source is now a **movement** and a **way of working** to solve problems collaboratively.
 
-- You are allowed to make pull requests that break the rules. We just merge it ;)
-- Do NOT add any build steps e.g npm install (we want to keep this a simple static site)
-- Do NOT remove other content.
-- Styling/code can be pretty, ugly or stupid, big or small as long as it works
-- Add your name to the contributorsList file
-- Try to keep pull requests small to minimize merge conflicts
+---
 
+# 📂 Suggested Folder Structure
 
-## Getting Started 🤩🤗:
+To make PyVerse easier to contribute to, we suggest the following modular folder structure:
 
-- Fork this repo (button on top)
-- Clone on your local machine
-
-```terminal
-git clone https://github.com/itsmedeepak/Hacktoberfest-2022.git
 ```
-- Navigate to project directory.
-```terminal
-cd Hacktoberfest2022
+pyverse/
+│
+├── projects
+├── docs/                # Documentation
+├── CONTRIBUTERS.md      # Contributor list
+└── README.md
 ```
 
-- Create a new Branch
+This helps new contributors understand where files belong and reduces merge conflicts.
 
-```markdown
-git checkout -b my-new-branch
+---
+
+# 📚 Contribution Rules
+
+- You are allowed to make pull requests that break the rules 😉 We’ll try to merge them.
+- Do **NOT** add any build steps (e.g., `npm install`). This repo should stay beginner-friendly.
+- Do **NOT** remove other contributors’ content.
+- Code can be pretty, ugly, big, or small — as long as it works.
+- Add your name to the `CONTRIBUTERS.md` file.
+- Keep pull requests small to minimize merge conflicts.
+
+---
+
+# 🤩 Getting Started
+
+1. Fork this repo (button on top right).
+2. Clone on your local machine:
+   ```bash
+   git clone https://github.com/itsmedeepak/PyVerse.git
+   ```
+3. Navigate to project directory:
+   ```bash
+   cd PyVerse
+   ```
+4. Create a new branch:
+   ```bash
+   git checkout -b my-new-branch
+   ```
+5. Add your name to `CONTRIBUTERS.md`:
+   ```bash
+   git add .
+   git commit -m "Added my name to contributors"
+   git push origin my-new-branch
+   ```
+6. Create a **Pull Request** 🚀
+
+---
+
+# 🔄 Avoid Conflicts (Sync Your Fork)
+
+To keep your fork updated with the original repo:
+
+```bash
+git remote add upstream https://github.com/itsmedeepak/PyVerse
+git fetch upstream
+git merge upstream/main
 ```
-- Add your Name to `CONTRIBUTER.md`
-```markdown
-git add .
-```
-- Commit your changes.
 
-```markdown
-git commit -m "Relevant message"
-```
-- Then push 
-```markdown
-git push origin my-new-branch
-```
+Check your remotes with:
 
-
-- Create a new pull request from your forked repository
-
-<br>
-
-## Avoid Conflicts {Syncing your fork}
-
-An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
-
-```terminal
-git remote add upstream https://github.com/fineanmol/Hacktoberfest2022
-```
-
-You can verify that the new remote has been added by typing
-```terminal
+```bash
 git remote -v
 ```
 
-To pull any new changes from your parent repo simply run
-```terminal
-git merge upstream/master
-```
+More info: [Syncing a fork – GitHub Docs](https://docs.github.com/en/get-started/using-git/syncing-a-fork).
 
-This will give you any eventual conflicts and allow you to easily solve them in your repo. It's a good idea to use it frequently in between your own commits to make sure that your repo is up to date with its parent.
+---
 
-For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
+# 🎁 Swags of Hacktoberfest
 
-## Swags of Hacktoberfest:
-- Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2021 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
- 
-     <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
-</b></li>
+After **4 successfully merged pull requests** during Hacktoberfest 2025, you’ll be eligible for:
 
-# FAQs (Frequently Asked Questions)
+- 🎽 An official Hacktoberfest T-shirt
+- 💠 Stickers delivered to your doorstep
 
-- Who all can contribute?
-  - Anyone with a github account and who is signed up for
-[hacktoberfest](https://hacktoberfest.digitalocean.com/) :)
-- Are you getting paid for this?
-  - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
-- Who are you and why are you doing this?
-  - We are two programmers from India [Anmol](https://www.linkedin.com/in/fineanmol/)
-  and [Ritesh](https://github.com/ritesh2905). We are doing this because we love Open Source and Hacktoberfest. We want to make it easier for people to get started with Hacktoberfest and Open Source.
-- Why are you not using digitalocean?
-  - Because we only know JavaScript and suck at servers. We use [now](https://zeit.co/now) instead.
+&#x20;
 
-- Should I come closer to the text saying 'Don't come closer' on the left side of the home tab ?
-  - Nope.
-- How many pull request (PR) must be made, if I want to get an awesome tshirt from Hacktoberfest 2022?
-  - 4
-- How do I track my progress to get an awesome shirt from Hacktoberfest 2022?
-  - [go to :](https://hacktoberfest.digitalocean.com/profile/). (Check Out Your Own Stats at Right Top)
-- What is the duration of Hacktoberfest 2022?
-  - It is from 1st october to 31st october 2022...
-- What is the event for?
-  - For the open source community engagement
+---
 
+# ❓ FAQs
 
+- **Who can contribute?**\
+  Anyone with a GitHub account signed up for [Hacktoberfest](https://hacktoberfest.com/).
 
+- **How many PRs are needed for a T-shirt?**\
+  You need **4 merged pull requests**.
 
-###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
-<br>
+- **How do I track my progress?**\
+  Visit [Hacktoberfest Profile](https://hacktoberfest.com/profile/).
 
-## Our Top Contributors ❤️
+- **When is Hacktoberfest 2025?**\
+  From **October 1st to October 31st, 2025**.
+
+- **Why PyVerse?**\
+  To make contributing fun, collaborative, and Python-friendly 🐍.
+
+---
+
+# ❤️ Top Contributors
+
 <p align="center"><a href="https://github.com/itsmedeepak/Hacktoberfest-2022/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=itsmedeepak/Hacktoberfest-2022" />
+
+  <img src="https://contributors-img.web.app/image?repo=itsmedeepak/Hacktoberfest-2022" />
+
 </a></p>
+---
+
+###### *We’ll try to merge as much as possible from everyone. Time is limited and merge conflicts can be tricky, so keep PRs small. <3*
+
