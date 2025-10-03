@@ -58,6 +58,7 @@ class PlagiarismCheckerApp(tk.Tk):
         messagebox.showinfo("Success", f"Loaded {len(self.student_files)} text files.")
         self.check_btn.config(state=tk.NORMAL)
 
+    
     def run_check(self):
         if not self.student_files:
             messagebox.showerror("Error", "Load files first!")
